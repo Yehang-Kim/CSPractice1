@@ -70,14 +70,17 @@ namespace CSPractice1
             Console.WriteLine(true && false);
             Console.WriteLine(true || false);
 
+
             // #1 12-4. 변수
             string s = "문자열 자료형";
+
 
             // #1 12-5. 복합대입연산자
             // += -= *= /=
             string output = "Hello";
             output += "World";
             Console.WriteLine(output);
+
 
             // #1 12-6. 증감 연산자
             int number = 10;
@@ -86,19 +89,24 @@ namespace CSPractice1
             Console.WriteLine(number--); // 12
             Console.WriteLine(--number); // 10
 
+
             // #1 12-7. 자료형 검사 [건너뛰기]
+
 
             // #1 12-8. var 키워드
             var varnumber = 20;
             // var abc; // X반드시 초기화 해줘야 함
 
+
             // #1 12-9. 입력
             string input = Console.ReadLine();
             Console.WriteLine(input);
 
+
             // #1 12-10. 자료형 변환
             // byte -> short -> char -> int -> long -> float -> double
             // 굉장히 중요
+
 
             // #2 13-1. if 조건문
             bool condition = true;
@@ -111,6 +119,19 @@ namespace CSPractice1
             } else
             {
                 // other
+            }
+
+
+            // #2 13-5. switch 조건문
+            const int v = 0;
+            switch(v)
+            {
+                case v:
+                    // 
+                    break;
+                default:
+                    //
+                    break;
             }
         }
     }
