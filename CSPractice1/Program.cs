@@ -155,6 +155,23 @@ namespace CSPractice1
                 Console.WriteLine(intArray2[i]);
                 i++; // 탈출을 위한 변수
             }
+
+
+            // #3 14-3. do while 반복문 [건너뛰기]
+
+
+            // #3 14-4. for 반복문 [건너뛰기]
+
+
+            // #3 14-5. 역 for 반복문 [건너뛰기]
+
+
+            // #3 14-6. foreach 반복문
+            string[] stringArray = { "사과", "배", "포도" };
+            foreach (var item in stringArray)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
