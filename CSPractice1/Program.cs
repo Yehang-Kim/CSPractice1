@@ -172,6 +172,40 @@ namespace CSPractice1
             {
                 Console.WriteLine(item);
             }
+
+
+            // #3 14-7. 중첩 반복문 [건너뛰기]
+
+
+            // #3 14-8. break 키워드 [건너뛰기]
+
+
+            // #3 14-9. continue 키워드 [건너뛰기]
+
+
+            // #3 14-10. 반복문 응용 [건너뛰기]
+
+
+            // #4 21-1. 클래스 개요 [건너뛰기]
+
+
+            // #4 21-2. 클래스 사용
+           Random random = new Random();
+            Console.WriteLine(random.Next(1, 7));
+            Console.WriteLine(random.Next(1, 7));
+            Console.WriteLine(random.Next(1, 7));
+            Console.WriteLine(random.Next(1, 7));
+            Console.WriteLine(random.Next(1, 7));
+            Console.WriteLine(random.Next(1, 7));
+            Console.WriteLine(random.Next(1, 7));
+
+            Console.WriteLine(Math.Abs(-9));
+            Console.WriteLine(Math.Ceiling(42.3)); // 43
+            Console.WriteLine(Math.Floor(42.9)); // 42
+            Console.WriteLine(Math.Round(42.6)); // 43
+            Console.WriteLine(Math.Min(42, 1)); // 1
+            Console.WriteLine(Math.Max(41, 1)); // 42
+            Console.WriteLine(Math.PI); // 3.141592~
         }
     }
 }
