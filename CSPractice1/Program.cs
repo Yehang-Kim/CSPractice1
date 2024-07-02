@@ -1,11 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace CSPractice1
 {
+    class MyMath
+    {
+        public static int classVar = 1;
+        public int instanceVar = 2;
+
+        public static int Abs(int input)
+        {
+            Console.WriteLine(classVar);
+            // 클래스 메서드에서 인스턴스 변수 접근 불가
+            // Console.WriteLine(instanceVar);
+            return (input >= 0) ? input : -input;
+        }
+    }
+
     class FirstClass
     {
 
@@ -243,6 +258,24 @@ namespace CSPractice1
             // #4 21-4. 클래스 변수
             Console.WriteLine(Product.TAX_RATIO);
             // Console.WriteLine(p1.TAX_RATIO); // JAVA는 가능하나 C#은 X
+
+
+            // #4 21-5. 추상화 [건너뛰기]
+
+
+            // #4 21-6. 클래스 응용 [건너뛰기]
+
+
+            // #4 21-7. 윈도-폼 [안함]
+
+
+            // #5 22-1. 메서드 기본 형태 [건너뛰기]
+
+
+            // #5 22-2. 매개변수와 반환 [건너뛰기]
+
+
+            // #5 22-3. 클래스와 메서드
         }
     }
 }
