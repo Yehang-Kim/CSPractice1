@@ -368,6 +368,42 @@ namespace CSPractice1
             test.value = 100;
             Change(test);
             Console.WriteLine(test.value); // 20
+
+
+            // #5 22-10. 메소드 응용 [건너뛰기]
+
+
+            // #5 22-11. 원도 폼 - 메소드 활용 [건너뛰기]
+
+
+            // #6 23-1. 상속과 다형성 [건너뛰기]
+
+
+            // #6 23-2. 상속 [건너뛰기]
+
+
+            // #6 23-3. 다형성 [건너뛰기]
+
+
+            // #6 23-4. is 키워드( + as 키워드)
+            List<Animal> animals = new List<Animal>()
+            {
+                new Dog(), new CAT(), new Dog(), new CAT(), new CAT(), 
+            };
+            foreach(var item in animals)
+            {
+                item.Eat();
+                item.Sleep();
+                if (item is CAT)
+                {
+                    ((CAT)item).Meow();
+                }
+                else if (item is Dog)
+                {
+                    var dog = item as Dog;
+                    if (dog != null) { dog.Bark(); }
+                }
+            }
         }
     }
 }
