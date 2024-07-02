@@ -12,6 +12,7 @@ namespace CSPractice1
         public static int classVar = 1;
         public int instanceVar = 2;
 
+        // Abs(int)
         public static int Abs(int input)
         {
             Console.WriteLine(classVar);
@@ -19,6 +20,12 @@ namespace CSPractice1
             // Console.WriteLine(instanceVar);
             return (input >= 0) ? input : -input;
         }
+
+        // Abs(double)
+        public static double Abs(double input) { return 0; }
+        // Abs(int)
+        // 메서드 시그네이처(이름, 매개변수)가 겹쳐서 안됨
+        // public static double Abs(int x) {  return 0; }
     }
 
     class FirstClass
@@ -276,6 +283,13 @@ namespace CSPractice1
 
 
             // #5 22-3. 클래스와 메서드
+
+
+            // #5 22-4. 오버로딩
+            Console.WriteLine(MyMath.Abs(-10)); // Abs(int)
+            Console.WriteLine(MyMath.Abs(10.0)); // Abs(double)
+            Console.WriteLine(MyMath.Abs(-10L)); // Abs(double)
+            Console.WriteLine(MyMath.Abs(3.0f)); // Abs(double)
         }
     }
 }
