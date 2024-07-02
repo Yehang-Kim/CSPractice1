@@ -290,6 +290,7 @@ namespace CSPractice1
             Console.WriteLine(MyMath.Abs(10.0)); // Abs(double)
             Console.WriteLine(MyMath.Abs(-10L)); // Abs(double)
             Console.WriteLine(MyMath.Abs(3.0f)); // Abs(double)
+
         }
     }
 }
